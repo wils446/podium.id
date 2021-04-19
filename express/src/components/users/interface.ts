@@ -1,0 +1,9 @@
+export interface UserModelInterface {
+    id: number;
+    name: string;
+    email: string;
+    password: string;
+    gender: string;
+    createdAt: Date;
+    updatedAt: Date;
+}
